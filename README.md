@@ -156,7 +156,8 @@ Add your screenshot here:
 screenshots/login-page.png
 ```
 
-![Login Page](screenshots/login-page.png)
+<img width="1080" height="2400" alt="Screenshot_20260814_123249" src="https://github.com/user-attachments/assets/20f8249f-d5fe-4612-ba28-e6ed28d64968" />
+
 
 ---
 
@@ -170,7 +171,7 @@ Add your screenshot here:
 screenshots/user-details-page.png
 ```
 
-![User Details Page](screenshots/user-details-page.png)
+<img width="1080" height="2400" alt="Screenshot_20260814_123227" src="https://github.com/user-attachments/assets/09cc88f7-c37d-4367-87ef-b72965251d9f" />
 
 ---
 
