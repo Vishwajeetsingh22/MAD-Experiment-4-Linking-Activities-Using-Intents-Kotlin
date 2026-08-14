@@ -1,6 +1,7 @@
 package com.example.exp_4
 
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -10,16 +11,17 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
-        val tvUsername = findViewById<TextView>(R.id.tvUsername)
-        val tvAge = findViewById<TextView>(R.id.tvAge)
-        val tvEmail = findViewById<TextView>(R.id.tvEmail)
+        val result = findViewById<TextView>(R.id.result)
+        val btnBack = findViewById<Button>(R.id.btnBack)
 
-        val username = intent.getStringExtra("USERNAME")
-        val age = intent.getStringExtra("AGE")
-        val email = intent.getStringExtra("EMAIL")
+        val name = intent.getStringExtra("name")
+        val age = intent.getStringExtra("age")
+        val email = intent.getStringExtra("email")
 
-        tvUsername.text = "Username: $username"
-        tvAge.text = "Age: $age"
-        tvEmail.text = "Email: $email"
+        result.text = getString(R.string.user_details_format, name, age, email)
+
+        btnBack.setOnClickListener {
+            finish()
+        }
     }
 }
