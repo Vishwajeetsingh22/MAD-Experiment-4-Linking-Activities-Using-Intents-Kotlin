@@ -387,6 +387,8 @@ The Android application was successfully developed using **Kotlin**. Two Activit
 # 👨‍💻 Author
 
 **Vishwajeet Singh**
+**USN-25MCAR0219
+JAIN(DEEMED-TO-BE-UNIVERSITY)
 
 ### Repository
 
